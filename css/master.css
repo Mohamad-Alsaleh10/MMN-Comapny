@@ -365,9 +365,15 @@ main{
     width:100%;
     max-width: 100%;
     height: calc(100vh - 130px);
-    background-image:url('../assets/image/back.jpg');
+    background-image:url('../assets/image/homepage\ laptop.png');
     background-size: cover;
     position: relative;
+}
+
+@media(max-width:768px){
+  main{
+    background-image:url('../assets/image/Phone\ home\ page.jpg');
+  }
 }
 
 
@@ -1625,9 +1631,9 @@ width: 100vw;
   }
   
   main{
-    height: 299px !important;
+    height: 246px !important;
     position: relative;
-    top: 67px;
+    top: 35px;
   }
 
   .right-section{
@@ -2212,27 +2218,27 @@ height: 100%;
 
 .facebook{
   position: absolute;
-  top: 3%;
+  top: 23%;
   right: 12%;
 }
 
 .instagram{
   position: absolute;
   left: 10%;
-  top: 14%;
+  top: 28%;
 
 
 }
 .tiktok{
   position: absolute;
     right: 8%;
-    top: 38%;
+    top: 50%;
 
 }
 .twitter{
   position: absolute;
   left: 10%;
-  top: 55%;
+  top: 58%;
 }
 
 
